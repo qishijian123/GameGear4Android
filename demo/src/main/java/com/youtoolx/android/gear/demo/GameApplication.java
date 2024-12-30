@@ -4,7 +4,8 @@ import android.app.Application;
 
 import com.youtoolx.android.gear.sdk.GearSDK;
 
-public class App extends Application {
+// 自定义Application
+public class GameApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
