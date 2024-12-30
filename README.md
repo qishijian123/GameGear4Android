@@ -78,7 +78,7 @@ GearSDK.speedUp(speedIndex);
 
 #### 设置减速模式下的速度档位
 
-调用如下api可设置减速模式下的速度档位，最小速度档位为1，最大速度档位为maxSpeedIndex，默认为10。速度档位值越大，游戏速度越慢。
+调用如下api可设置减速模式下的速度档位，最小速度档位为1，最大速度档位为maxSpeedIndex，默认为10。速度档位值越大，游戏速度越慢，最慢为1/maxGear，默认为1/5倍速。
 
 ```java
 GearSDK.speedDown(speedIndex);
