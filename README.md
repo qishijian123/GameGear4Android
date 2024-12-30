@@ -109,5 +109,9 @@ GearSDK.stop();
 -keep class com.youtoolx.android.gear.sdk.** {*;}
 ```
 
+## 变速效果
+
+![变速效果](https://github.com/youtoolx/GameGear4Android/tree/main/doc/speed.png)
+
 ## 致谢
 [ShadowHook](https://github.com/bytedance/android-inline-hook): [MIT license](https://github.com/bytedance/android-inline-hook/blob/main/LICENSE)
